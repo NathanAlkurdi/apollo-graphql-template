@@ -1,0 +1,29 @@
+{
+    "include": ["src/**/*"],
+    "exclude": [
+      "dist",
+      "node_modules",
+      "src/**/*.test.ts",
+    ],
+    "compilerOptions": {
+      "module": "esnext",
+      "target": "es2020",
+      "moduleResolution": "node",
+      "allowJs": true,
+      "importHelpers": true,
+      "declaration": true,
+      "sourceMap": true,
+      "outDir": "./dist",
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "types": ["node"],
+      /* Type-Checking */
+      "strict": true,
+      "allowSyntheticDefaultImports": true,
+      "noFallthroughCasesInSwitch": true,
+      "noUnusedLocals": false,
+      "noUnusedParameters": false,
+      "noImplicitReturns": true,
+      "forceConsistentCasingInFileNames": true
+    }
+  }
